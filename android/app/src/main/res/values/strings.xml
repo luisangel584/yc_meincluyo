@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Me Incluyo</string>
+    <string name="facebook_app_id">1331799957007173</string>
+    <string name="fb_login_protocol_scheme">fb1331799957007173</string>
+</resources>

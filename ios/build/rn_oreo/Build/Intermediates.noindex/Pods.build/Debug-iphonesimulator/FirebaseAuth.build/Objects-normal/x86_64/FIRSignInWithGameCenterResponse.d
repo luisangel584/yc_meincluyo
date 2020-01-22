@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRSignInWithGameCenterResponse.m \
+  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/RPC/FIRSignInWithGameCenterResponse.h \
+  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/FirebaseAuth/Firebase/Auth/Source/Backend/FIRAuthRPCResponse.h

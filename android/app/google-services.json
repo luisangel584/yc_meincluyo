@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735954816599",
+    "firebase_url": "https://me-incluyo-265023.firebaseio.com",
+    "project_id": "me-incluyo-265023",
+    "storage_bucket": "me-incluyo-265023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735954816599:android:913668e63712f709cb5d12",
+        "android_client_info": {
+          "package_name": "com.meincluyoapp2020.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735954816599-m5culed09u32iplg1kn1ppu9pdsgu4qu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meincluyoapp2020.app",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "735954816599-nlr1oconfff7tdslv4bvsdjshdjt9e71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-zzO31rGmUyuTr3hFdxjKQIq-voyFfvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735954816599-nlr1oconfff7tdslv4bvsdjshdjt9e71.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "735954816599-1lc229dpp4hvph3ma4cgfqcastkt637l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meincluyoapp2020.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
