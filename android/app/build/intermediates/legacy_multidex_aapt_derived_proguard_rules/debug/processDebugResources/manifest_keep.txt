@@ -1,4 +1,4 @@
-# Referenced at /Users/hugo/Downloads/oreo/app/rn_oreo/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:51
+# Referenced at /Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:54
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at /Users/hugo/Downloads/oreo/app/rn_oreo/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:51
--keep class com.rn_oreo.MainApplication { <init>(); }
+# Referenced at /Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:54
+-keep class com.meincluyoapp2020.app.MainApplication { <init>(); }

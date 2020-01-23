@@ -28,6 +28,8 @@ int anim catalyst_push_up_in 0x7f01001a
 int anim catalyst_push_up_out 0x7f01001b
 int anim catalyst_slide_down 0x7f01001c
 int anim catalyst_slide_up 0x7f01001d
+int anim onesignal_fade_in 0x7f01001e
+int anim onesignal_fade_out 0x7f01001f
 int attr actionBarDivider 0x7f020000
 int attr actionBarItemBackground 0x7f020001
 int attr actionBarPopupTheme 0x7f020002

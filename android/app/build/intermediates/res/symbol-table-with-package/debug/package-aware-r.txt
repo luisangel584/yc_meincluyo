@@ -29,6 +29,8 @@ anim catalyst_push_up_in
 anim catalyst_push_up_out
 anim catalyst_slide_down
 anim catalyst_slide_up
+anim onesignal_fade_in
+anim onesignal_fade_out
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme

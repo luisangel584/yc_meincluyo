@@ -11,8 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import com.rn_oreo.BuildConfig;
-import com.rn_oreo.R;
+import com.meincluyoapp2020.app.BuildConfig;
+import com.meincluyoapp2020.app.R;
 
 // @react-native-community/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hugo/Downloads/oreo/app/rn_oreo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
             "map": [
                 {
-                    "source": "/Users/hugo/.gradle/caches/transforms-2/files-2.1/526ad858596f768a80354d0b5ebb2f15/jetified-facebook-common-5.13.0/res/values-id/values-id.xml",
+                    "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/1bf48530dc454ed454ba1cd2f1cb5e96/jetified-facebook-common-5.15.0/res/values-id/values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
