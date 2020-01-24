@@ -250,6 +250,11 @@
     "text_research": ">",
     "text_about_description": "This Privacy Policy sets out the information that we collect, the reasons for which we collect that information, and how we can use and share that information."
   },
+  "specialists" : {
+    "text_specialists": "Especialistas",
+    "text_specialists_subtitle": "Aquí puedes encontrar una agenda con especialistas en distintas áreas que hemos verificado para tu comodidad.",
+    "text_specialists_search": "Buscar especialista"
+  },
   "blog": {
     "text_lastest": "Más recientes",
     "text_by": "por",

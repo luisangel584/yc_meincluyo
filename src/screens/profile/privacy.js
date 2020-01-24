@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView } from 'react-native';
+import { StyleSheet, ScrollView, FlatList } from 'react-native';
 import { Header, Text, ThemedView } from 'src/components';
 
 import { IconHeader, CartIcon, TextHeader } from 'src/containers/HeaderComponent';

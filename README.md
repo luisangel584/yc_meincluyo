@@ -3,6 +3,6 @@
 # Me Incluyo - Android & iOS App
 ## Based in Oreo template
 
-** Please, install all dependencies in root project folder. **
+**Please, install all dependencies in root project folder.**
 
 If you need, make a rebuild app in AndroidStudio.

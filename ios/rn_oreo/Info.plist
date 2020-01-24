@@ -78,11 +78,11 @@
 		</dict>
 	</dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs Location access for &quot;some reason&quot;!</string>
+	<string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs Location access for &quot;some reason&quot;!</string>
+	<string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs Location access for &quot;some reason&quot;!</string>
+	<string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Poppins-Light.ttf</string>
