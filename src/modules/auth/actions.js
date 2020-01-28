@@ -153,14 +153,16 @@ export function signOut() {
  * SignIn with Apple
  * @param identityToken
  * @param user
- * @returns {{payload: {identityToken: *, user: *}, type: string}}
+ * @param fullName
+ * @returns {{payload: {identityToken: *, user: *, fullName: *}, type: string}}
  */
-export function signInWithApple(identityToken, user) {
+export function signInWithApple(identityToken, user, fullName) {
   return {
     type: Actions.SIGN_IN_WITH_APPLE,
     payload: {
       identityToken,
       user,
+      fullName,
     },
   };
 }

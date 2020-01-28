@@ -25,6 +25,8 @@ const HeaderMe = props => {
   } = props;
   const { t } = useTranslation();
 
+  console.log(`props: ${JSON.stringify(props.auth.user)} \n`);
+
   let nameUser = t('profile:text_hello_default');
   if (isLogin && user && !isEqual(user, {})) {
     const stringName = t('profile:text_hello', { name: user.display_name });

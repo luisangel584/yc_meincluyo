@@ -73,13 +73,33 @@ class SocicalAccounts extends React.Component {
     try {
       const appleAuthRequestResponse = await appleAuth.performRequest({
         requestedOperation: AppleAuthRequestOperation.LOGIN,
-        requestedScopes: [AppleAuthRequestScope.EMAIL, AppleAuthRequestScope.FULL_NAME],
+        requestedScopes: [
+          AppleAuthRequestScope.EMAIL,
+          AppleAuthRequestScope.FULL_NAME,
+        ],
       });
-      this.props.dispatch(signInWithApple(appleAuthRequestResponse.identityToken, appleAuthRequestResponse.user));
+      const fullName = `${appleAuthRequestResponse.fullName.givenName} ${appleAuthRequestResponse.fullName.familyName}`;
+      console.log(fullName);
+      this.props.dispatch(
+        signInWithApple(
+          appleAuthRequestResponse.identityToken,
+          appleAuthRequestResponse.user,
+          fullName,
+        ),
+      );
     } catch (e) {
       console.log(e);
     }
   };
+
+  getDisplayName = fullName => {
+    let displayName = fullName.givenName;
+    fullName.familyName
+      ? (displayName = `${fullName.givenName} ${fullName.familyName}`)
+      : displayName;
+    // return displayName;
+    console.log(displayName);
+  }
 
   render() {
     const {
