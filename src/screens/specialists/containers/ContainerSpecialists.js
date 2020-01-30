@@ -1,6 +1,12 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
-import {ScrollView, StyleSheet, FlatList, View, SafeAreaView} from 'react-native';
+import {
+  ScrollView,
+  StyleSheet,
+  FlatList,
+  View,
+  SafeAreaView,
+} from 'react-native';
 import {Text} from 'src/components';
 import Container from 'src/containers/Container';
 import {margin, padding} from 'src/components/config/spacing';
@@ -12,20 +18,20 @@ const ContainerSpecialists = () => {
   const SPECILISTS = [
     {
       id: '1',
-      name: 'Especialista 1',
-      area: 'Área 1',
+      name: 'Dr. Fernando Marín Flores',
+      area: 'Neuropsiquiatra',
       tel: '987 800 3150',
     },
     {
       id: '2',
-      name: 'Especialista 2',
-      area: 'Área 2',
+      name: 'Dr. Ivan Valero Mendoza',
+      area: 'Cirujano neurólogo',
       tel: '800 3150 987',
     },
     {
       id: '3',
-      name: 'Especialista 3',
-      area: 'Área 3',
+      name: 'Dr. Jaime Hernández Contreras',
+      area: 'QFB',
       tel: '3150 987 800',
     },
   ];
@@ -42,7 +48,7 @@ const ContainerSpecialists = () => {
   }
 
   return (
-    <ScrollView>
+    <SafeAreaView>
       <Container>
         <Text h2 medium style={styles.title}>
           {t('specialists:text_specialists')}
@@ -51,24 +57,23 @@ const ContainerSpecialists = () => {
           {t('specialists:text_specialists_subtitle')}
         </Text>
       </Container>
-      <SafeAreaView style={styles.safearea}>
-        <FlatList
-          style={styles.flatlist}
-          data={SPECILISTS}
-          renderItem={({item}) => (
-            <View>
-              <Item
-                title={item.name}
-                area={item.area}
-                tel={item.tel}
-                style={[styles.item]}
-              />
-            </View>
-          )}
-          keyExtractor={item => item.id}
-        />
-      </SafeAreaView>
-    </ScrollView>
+      <FlatList
+        o
+        style={styles.flatlist}
+        data={SPECILISTS}
+        renderItem={({item}) => (
+          <View>
+            <Item
+              title={item.name}
+              area={item.area}
+              tel={item.tel}
+              style={[styles.item]}
+            />
+          </View>
+        )}
+        keyExtractor={item => item.id}
+      />
+    </SafeAreaView>
   );
 };
 

@@ -6,3 +6,15 @@
 **Please, install all dependencies in root project folder.**
 
 If you need, make a rebuild app in AndroidStudio.
+ 
+# 
+## Files for tabs:
+
+- src/config/navigator.js **@homeTabs{}**
+- src/navigation/home-tabs.js **@Tabs()**
+- src/containers/Tabbar/index.js **@Tabbar()**
+
+Icon pack: [**Feather**](https://feathericons.com/)
+
+
+# 
