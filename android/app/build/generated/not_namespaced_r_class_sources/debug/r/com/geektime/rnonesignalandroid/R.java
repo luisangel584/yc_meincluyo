@@ -30,8 +30,6 @@ public final class R {
         public static final int catalyst_push_up_out = 0x7f01001b;
         public static final int catalyst_slide_down = 0x7f01001c;
         public static final int catalyst_slide_up = 0x7f01001d;
-        public static final int onesignal_fade_in = 0x7f01001e;
-        public static final int onesignal_fade_out = 0x7f01001f;
     }
     public static final class attr {
         private attr() {}

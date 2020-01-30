@@ -225,7 +225,7 @@
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/drawable-xxxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/aeacd6614c19313e7085abf837e7a425/jetified-OneSignal-3.12.4/res/drawable-xxxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -393,7 +393,7 @@
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/layout_onesignal_bgimage_notif_layout.xml.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/layout/onesignal_bgimage_notif_layout.xml"
+        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/aeacd6614c19313e7085abf837e7a425/jetified-OneSignal-3.12.4/res/layout/onesignal_bgimage_notif_layout.xml"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -801,7 +801,7 @@
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/raw_consumer_onesignal_keep.xml.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/raw/consumer_onesignal_keep.xml"
+        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/aeacd6614c19313e7085abf837e7a425/jetified-OneSignal-3.12.4/res/raw/consumer_onesignal_keep.xml"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -1445,7 +1445,7 @@
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/drawable-xhdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/aeacd6614c19313e7085abf837e7a425/jetified-OneSignal-3.12.4/res/drawable-xhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1453,7 +1453,7 @@
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/drawable-mdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/aeacd6614c19313e7085abf837e7a425/jetified-OneSignal-3.12.4/res/drawable-mdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -1594,10 +1594,6 @@
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/b5dfd0513ad7328ec4e3b65d240c8800/core-1.2.0-rc01/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
-        "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/anim_onesignal_fade_out.xml.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/anim/onesignal_fade_out.xml"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
@@ -1849,7 +1845,7 @@
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/drawable-hdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/aeacd6614c19313e7085abf837e7a425/jetified-OneSignal-3.12.4/res/drawable-hdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -2001,7 +1997,7 @@
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/drawable-xxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/aeacd6614c19313e7085abf837e7a425/jetified-OneSignal-3.12.4/res/drawable-xxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -2214,10 +2210,6 @@
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/anim_onesignal_fade_in.xml.flat",
-        "source": "/Users/luis/.gradle/caches/transforms-2/files-2.1/7602ec6f7132a6c6963690676ec6d9dd/jetified-OneSignal-3.12.5/res/anim/onesignal_fade_in.xml"
     },
     {
         "merged": "/Users/luis/Desktop/yoc/zzz/yc_meincluyo/android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat",

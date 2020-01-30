@@ -15,10 +15,10 @@ export const homeDrawer = {
 export const homeTabs = {
   home: 'HomeScreen',
   blogs: 'BlogsScreen',
-  shop: 'ShopStack',
+  // shop: 'ShopStack',
   // wish_list: 'WishListStack',
   // cart: 'CartStack',
-  forum: 'ForumScreen',
+  // forum: 'ForumScreen',
   specialists: 'SpecialistsScreen',
   me: 'ProfileStack',
 };

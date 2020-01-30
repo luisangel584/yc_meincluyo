@@ -25,9 +25,11 @@ const Tabs = createBottomTabNavigator(
     [homeTabs.blogs]: {
       screen: Blogs,
     },
+    // <-- TAB TIENDA START ->
     [homeTabs.shop]: {
       screen: Category,
     },
+    // <-- TAB TIENDA END ->
     [homeTabs.specialists]: {
       screen: Specialists,
     },

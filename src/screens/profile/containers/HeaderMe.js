@@ -75,7 +75,7 @@ const HeaderMe = props => {
       rightElement={
         <TouchableOpacity style={styles.loginBell} onPress={() => false && navigation.navigate(profileStack.notification_list)}>
           <Icon name="bell" size={20} />
-          {/*<Badge status="error" value={2} badgeStyle={styles.badge} textStyle={styles.textBadge} />*/}
+          {/* <Badge status="error" value={2} badgeStyle={styles.badge} textStyle={styles.textBadge} /> */}
         </TouchableOpacity>
       }
       containerStyle={styles.item}

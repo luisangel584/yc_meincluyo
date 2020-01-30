@@ -32,12 +32,14 @@ const Tabbar = (props) => {
       router: homeTabs.blogs,
       isShow: true,
     },
-    {
-      iconName: 'shopping-bag',
-      name: t('common:text_shop'),
-      router: homeTabs.shop,
-      isShow: true,
-    },
+    // <-- TAB TIENDA START ->
+    // {
+    //   iconName: 'shopping-bag',
+    //   name: t('common:text_shop'),
+    //   router: homeTabs.shop,
+    //   isShow: true,
+    // },
+    // <-- TAB TIENDA END ->
     // {
     //   iconName: 'heart',
     //   name: t('common:text_wishList'),
@@ -58,12 +60,14 @@ const Tabbar = (props) => {
       router: homeTabs.specialists,
       isShow: true,
     },
-    {
-      iconName: 'users',
-      name: t('common:text_forum'),
-      router: homeTabs.forum,
-      isShow: true,
-    },
+    // <-- TAB TIENDA START ->
+    // {
+    //   iconName: 'users',
+    //   name: t('common:text_forum'),
+    //   router: homeTabs.forum,
+    //   isShow: true,
+    // },
+    // <-- TAB TIENDA END ->
     {
       iconName: 'user',
       name: t('common:text_me'),

@@ -9,12 +9,6 @@ package com.onesignal;
 public final class R {
     private R() {}
 
-    public static final class anim {
-        private anim() {}
-
-        public static final int onesignal_fade_in = 0x7f01001e;
-        public static final int onesignal_fade_out = 0x7f01001f;
-    }
     public static final class attr {
         private attr() {}
 
