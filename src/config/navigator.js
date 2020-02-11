@@ -19,6 +19,7 @@ export const homeTabs = {
   // wish_list: 'WishListStack',
   // cart: 'CartStack',
   // forum: 'ForumScreen',
+  places:'PlacesScreen',
   specialists: 'SpecialistsScreen',
   me: 'ProfileStack',
 };

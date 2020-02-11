@@ -32,6 +32,12 @@ const Tabbar = (props) => {
       router: homeTabs.blogs,
       isShow: true,
     },
+    {
+      iconName: 'map-pin',
+      name: t('common:Lugares'),
+      router: homeTabs.places,
+      isShow: true,
+    },
     // <-- TAB TIENDA START ->
     // {
     //   iconName: 'shopping-bag',
