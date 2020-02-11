@@ -9,6 +9,7 @@ import WishList from 'src/screens/wishlist';
 import Blogs from '../screens/blog/blogs';
 import Forum from '../screens/forum/forum';
 import Specialists from '../screens/specialists/specialists';
+import Places from '../screens/places/places';
 
 import ProfileStack from './profile-stack';
 import CartStack from './cart-stack';
@@ -24,6 +25,9 @@ const Tabs = createBottomTabNavigator(
     },
     [homeTabs.blogs]: {
       screen: Blogs,
+    },
+    [homeTabs.places]: {
+      screen: Places,
     },
     // <-- TAB TIENDA START ->
     [homeTabs.shop]: {

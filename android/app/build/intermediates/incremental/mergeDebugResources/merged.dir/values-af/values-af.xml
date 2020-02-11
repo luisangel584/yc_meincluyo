@@ -33,7 +33,7 @@
     <string gender="unknown" name="com_facebook_internet_permission_error_title">AndroidManifest-fout</string>
     <string gender="unknown" name="com_facebook_like_button_liked">Hou van</string>
     <string gender="unknown" name="com_facebook_like_button_not_liked">Hou van</string>
-    <string gender="unknown" name="com_facebook_loading">Laai tans \u2026</string>
+    <string gender="unknown" name="com_facebook_loading">Laai tans …</string>
     <string gender="unknown" name="com_facebook_loginview_cancel_action">Kanselleer</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button">Teken aan</string>
     <string gender="unknown" name="com_facebook_loginview_log_in_button_continue">Gaan voort met Facebook</string>
