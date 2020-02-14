@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/Target\ Support\ Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-dummy.m
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/Target\ Support\ Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-dummy.m

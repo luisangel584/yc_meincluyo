@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnosticsDateFileStorage.m \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnosticsDateFileStorage.h
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnosticsDateFileStorage.m \
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnosticsDateFileStorage.h

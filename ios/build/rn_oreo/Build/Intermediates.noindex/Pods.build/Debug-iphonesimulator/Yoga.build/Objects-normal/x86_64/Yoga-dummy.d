@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/Target\ Support\ Files/Yoga/Yoga-dummy.m \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/Target\ Support\ Files/Yoga/Yoga-prefix.pch
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/Target\ Support\ Files/Yoga/Yoga-dummy.m \
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/Target\ Support\ Files/Yoga/Yoga-prefix.pch
