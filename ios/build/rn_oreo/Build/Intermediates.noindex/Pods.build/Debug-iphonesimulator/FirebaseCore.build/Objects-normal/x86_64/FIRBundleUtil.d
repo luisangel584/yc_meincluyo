@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/FirebaseCore/Firebase/Core/FIRBundleUtil.m \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/Headers/Private/GoogleUtilities/GULAppEnvironmentUtil.h
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/FirebaseCore/Firebase/Core/FIRBundleUtil.m \
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/FirebaseCore/Firebase/Core/Private/FIRBundleUtil.h \
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/Headers/Private/GoogleUtilities/GULAppEnvironmentUtil.h

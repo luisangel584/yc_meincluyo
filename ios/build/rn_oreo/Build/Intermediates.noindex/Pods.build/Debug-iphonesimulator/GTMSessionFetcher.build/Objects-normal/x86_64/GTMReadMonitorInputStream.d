@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.m \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/Target\ Support\ Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch \
-  /Users/hugo/Downloads/oreo/app/rn_oreo/ios/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.h
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.m \
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/Target\ Support\ Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch \
+  /Users/hugo/Downloads/GIT/yc_meincluyo/ios/Pods/GTMSessionFetcher/Source/GTMReadMonitorInputStream.h
