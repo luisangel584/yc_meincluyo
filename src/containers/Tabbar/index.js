@@ -60,12 +60,12 @@ const Tabbar = (props) => {
     //   router: homeTabs.cart,
     //   isShow: configs.get('toggleCheckout'),
     // },
-    {
+ /*   {
       iconName: 'activity',
       name: t('common:text_specialists'),
       router: homeTabs.specialists,
       isShow: true,
-    },
+    },*/
     // <-- TAB TIENDA START ->
     // {
     //   iconName: 'users',
