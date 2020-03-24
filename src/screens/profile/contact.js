@@ -53,7 +53,7 @@ class ContactScreen extends React.Component {
                 </View>
                 <View style={[styles.viewInfo, styles.row]}>
                   <Icon
-                    name="phone-call"
+                    name="globe"
                     type="feather"
                     size={15}
                     color={grey5}
