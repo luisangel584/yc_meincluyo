@@ -40,7 +40,7 @@ class Places extends Component {
           style={{flex: 1}}
           onNavigationStateChange=
             {this.onNavigationStateChange.bind(this)}
-          source={{uri: 'https://me-incluyo.org/places/'}}
+          source={{uri: 'https://me-incluyo.org/directorio-de-centros/'}}
           /> 
       </View>
       );
