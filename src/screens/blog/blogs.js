@@ -1,160 +1,77 @@
-import React from 'react';
+import React, {Component} from 'react';
+//import {WebView} from 'react-native';
+import { WebView } from 'react-native-webview';
+const WEBVIEW_REF = "WEBVIEW_REF";
 
-import { connect } from 'react-redux';
+// import {connect} from 'react-redux';
+// import {DrawerActions} from 'react-navigation-drawer';
 
-import { DrawerActions } from 'react-navigation-drawer';
-import { StyleSheet, View, FlatList, ActivityIndicator } from 'react-native';
-import { Header, ThemedView } from 'src/components';
-import { IconHeader, Logo, CartIcon } from 'src/containers/HeaderComponent';
-import LastestBlog from './containers/LastestBlog';
-import ItemBlog from './containers/ItemBlog';
+import {ScrollView, View, Dimensions, Text, StyleSheet,TouchableOpacity} from 'react-native';
 
-import {getBlogs} from 'src/modules/blog/service';
-import { languageSelector } from 'src/modules/common/selectors';
+import {ThemedView, Header} from 'src/components';
+import {TextHeader, IconHeader, Logo, CartIcon} from 'src/containers/HeaderComponent';
 
-import {padding, margin} from 'src/components/config/spacing';
-import {prepareBlogItem} from 'src/utils/blog'
+import {
+    dataConfigSelector,
+    toggleSidebarSelector,
+} from 'src/modules/common/selectors';
 
 
-class BlogList extends React.Component {
-  state = {
-    data: [],
-    page: 1,
-    loading: true,
-    loadingMore: false,
-    refreshing: false,
-    error: null,
-  };
 
-  componentDidMount() {
-    this.fetchData();
+class BlogList extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { canGoBack: false };
   }
 
-  fetchData = async () => {
-    try {
-      const {language} = this.props;
-      const { page } = this.state;
-      const query = {
-        page,
-        per_page: 10,
-        // lang: language
-      };
-      const data = await getBlogs(query);
-      if (data.length <= 10 && data.length > 0) {
-        const list = data.map(v => prepareBlogItem(v));
-        this.setState((prevState) => ({
-          data: page === 1 ? Array.from(list) : [...prevState.data, ...list],
-          loading: false,
-          loadingMore: data.length === 10,
-          refreshing: false,
-        }));
-      } else {
-        this.setState({
-          loadingMore: false,
-          loading: false,
-        });
-      }
-    } catch (error) {
-      this.setState({
-        error,
-        loading: false,
-        loadingMore: false,
-      })
-    }
-  };
-
-  handleLoadMore = () => {
-    const { loadingMore } = this.state;
-
-    if (loadingMore) {
-      this.setState(
-        (prevState, nextProps) => ({
-          page: prevState.page + 1,
-          loadingMore: true,
-        }),
-        () => {
-          this.fetchData();
-        }
+    render() {
+      return (
+        <View style={styles.container}>
+        <View style={styles.topbar}>
+          <TouchableOpacity
+            disabled={!this.state.canGoBack}
+            onPress={this.onBack.bind(this)}
+            >
+            <Text style={this.state.canGoBack ? styles.topbarText : styles.topbarTextDisabled}>Regresar</Text>
+          </TouchableOpacity>
+        </View>
+        <WebView
+          ref={WEBVIEW_REF}
+          style={{flex: 1}}
+          onNavigationStateChange=
+            {this.onNavigationStateChange.bind(this)}
+          source={{uri: 'https://me-incluyo.org/blog/'}}
+          /> 
+      </View>
       );
     }
-  };
+    onBack() {
+      this.refs[WEBVIEW_REF].goBack();
+    }
+  
+    onNavigationStateChange(navState) {
+      this.setState({
+        canGoBack: navState.canGoBack
+      });
+    }
+     
 
-  renderFooter = () => {
-    if (!this.state.loadingMore) return null;
-
-    return (
-      <View style={styles.footerFlatlist}>
-        <ActivityIndicator animating size="small" />
-      </View>
-    );
-  };
-
-  handleRefresh = () => {
-    this.setState(
-      {
-        page: 1,
-        refreshing: true,
-      },
-      () => {
-        this.fetchData();
-      }
-    );
-  };
-
-  render() {
-    const { data } = this.state;
-    const dataSwiper = data.filter((item, index) => index < 3);
-    const dataFlatlist = data.filter((item, index) => index >= 3);
-
-    return (
-      <ThemedView isFullView>
-        <Header
-          leftComponent={<IconHeader name="align-left" size={22} onPress={() => this.props.navigation.dispatch(DrawerActions.openDrawer())} />}
-          centerComponent={<Logo />}
-          rightComponent={<CartIcon />}
-        />
-        {!this.state.loading ? (
-          <FlatList
-            data={dataFlatlist}
-            keyExtractor={item => `${item.id}`}
-            renderItem={({ item, index }) => <ItemBlog item={item} style={[styles.item, {borderTopWidth: index === 0? 1: 0}]}/>}
-            onEndReached={this.handleLoadMore}
-            onEndReachedThreshold={0.5}
-            initialNumToRender={10}
-            ListHeaderComponent={<LastestBlog data={dataSwiper} />}
-            ListFooterComponent={this.renderFooter()}
-            refreshing={this.state.refreshing}
-            onRefresh={this.handleRefresh}
-          />
-        ) : (
-          <View style={styles.viewLoading}>
-            <ActivityIndicator />
-          </View>
-        )}
-      </ThemedView>
-    );
   }
-}
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#F5FCFF',
+    },
+    topbar: {
+      height: 80,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    topbarTextDisabled: {
+      color: 'gray'
+    }
+  });
+  
 
-const styles = StyleSheet.create({
-  item: {
-    paddingTop: padding.big,
-    marginHorizontal: margin.large,
-  },
-  viewLoading: {
-    marginVertical: margin.large
-  },
-  footerFlatlist: {
-    position: 'relative',
-    height: 40,
-    justifyContent: 'center',
-  },
-});
 
-const mapStateToProps = state => {
-  return {
-    language: languageSelector(state),
-  };
-};
-
-export default connect(mapStateToProps)(BlogList);
+export default BlogList;
