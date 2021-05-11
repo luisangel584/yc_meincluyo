@@ -24,7 +24,7 @@
     "homebrew": "^0.1.0",
     "i18next": "17.0.16",
     "immutable": "^4.0.0-rc.12",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "onesignal": "^0.1.2",
     "password-validator": "^5.0.3",
